@@ -1,0 +1,10 @@
+streamlit
+pandas
+python-dotenv
+openai
+openpyxl
+XlsxWriter
+pytest
+ruff
+black
+pylint
