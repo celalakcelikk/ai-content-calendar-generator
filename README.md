@@ -10,7 +10,6 @@ Plan dates based on your topic, target audience, tone, and platforms. Generate t
   <img src="https://img.shields.io/badge/License-MIT-green" />
 </p>
 
----
 
 ## ✨ Features
 
@@ -20,13 +19,19 @@ Plan dates based on your topic, target audience, tone, and platforms. Generate t
 - 📤 **Exports** — One-click **CSV** and **Excel** downloads  
 - 🛠 **Production Ready** — ENV-based logging, unit tests, linting (ruff/black/pylint)
 
----
 
 ## 🎥 Demo
 > Add a GIF or video here to showcase the app in action.  
 > Example: `assets/demo.mp4` or a YouTube link.
 
----
+
+## 📊 Example Output
+
+| Date       | Platform   | Title                                 | Description                                                                 | Format  | Hashtags                  |
+|------------|-----------|---------------------------------------|----------------------------------------------------------------------------|---------|---------------------------|
+| 2025-08-11 | Instagram | 10 Tips for Content Planning          | Learn how to plan your content effectively to increase engagement.         | Image   | #marketing #content       |
+| 2025-08-13 | Twitter   | Why Consistency Wins in Social Media   | Discover how posting regularly can grow your audience and brand authority. | Thread  | #socialmedia #branding    |
+| 2025-08-15 | LinkedIn  | 5 AI Tools to Boost Your Productivity  | Explore top AI tools for saving time and improving your daily workflow.    | Article | #AI #productivity #tools  |
 
 ## 📂 Project Structure
 
@@ -54,7 +59,6 @@ ai-content-calendar-generator/
    └─ test_schedule.py            # Unit tests for generate_dates
 ```
 
----
 
 ## ⚙️ Installation
 
@@ -76,7 +80,6 @@ streamlit run app.py
 bash scripts/run.sh
 ```
 
----
 
 ## 🖥 Usage
 
@@ -85,7 +88,6 @@ bash scripts/run.sh
 3. Click **"Generate Plan"** to create the content calendar.  
 4. Download the schedule as **CSV** or **XLSX**.
 
----
 
 ## 🔑 Environment Variables
 
@@ -108,7 +110,6 @@ LOG_DATEFMT=%Y-%m-%d %H:%M:%S
 - Without `OPENAI_API_KEY`, AI features are disabled.
 - Logging configuration is fully adjustable via environment variables.
 
----
 
 ## 🧪 Quality & Tests
 
@@ -125,7 +126,6 @@ pytest -q
 
 > `ruff` → fast linter, `black` → formatting, `pylint` → deep analysis, `pytest` → tests.
 
----
 
 ## 🗺 Roadmap
 
@@ -135,7 +135,6 @@ pytest -q
 - Platform-specific prompt packs  
 - No-code integrations (Make.com / Zapier)
 
----
 
 ## 📜 License
 
