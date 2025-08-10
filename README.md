@@ -24,9 +24,8 @@ Plan dates based on your topic, target audience, tone, and platforms. Generate t
 > Add a GIF or video here to showcase the app in action.  
 > Example: `assets/demo.mp4` or a YouTube link.
 
----
 
-### 📊 Example Output
+## 📊 Example Output
 
 | Date       | Week Index | Platform   | Topic           | Audience           | Tone         | Title                                           | Description                                                                                                         | Format | Hashtags                                               |
 |------------|------------|------------|-----------------|--------------------|--------------|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|--------|--------------------------------------------------------|
