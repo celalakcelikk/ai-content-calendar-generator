@@ -50,7 +50,6 @@ ai-content-calendar-generator/
 │  │  └─ logging.py               # ENV-based logging (LOG_LEVEL, LOG_FILE, etc.) + time_block utils
 │  └─ ui/
 │     ├─ layout.py                # Sidebar inputs: topic, audience, frequency, platform, tone, AI toggle & model
-│     └─ theme.py                 # Light/Dark/System CSS themes, Google Fonts, button/card styles
 └─ tests/
    ├─ conftest.py                 # Pytest fixtures (e.g., temporary OPENAI_API_KEY env)
    └─ test_schedule.py            # Unit tests for generate_dates
