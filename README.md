@@ -15,13 +15,12 @@ Plan dates based on your topic, target audience, tone, and platforms. Generate t
 
 - 🤖 **AI-Powered Generation** — Titles, descriptions, formats, and hashtag suggestions  
 - 📆 **Flexible Scheduling** — Daily • Weekly • **X times/week (custom weekdays)**  
-- 🎨 **Theme Options** — System (Auto) / Light / Dark  
 - 📤 **Exports** — One-click **CSV** and **Excel** downloads  
 - 🛠 **Production Ready** — ENV-based logging, unit tests, linting (ruff/black/pylint)
 
 
 ## 🎥 Demo
-![](assets/demo.gif)
+![](assets/demo_2.gif)
 
 
 ## 📊 Example Output
