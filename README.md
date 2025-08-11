@@ -21,8 +21,7 @@ Plan dates based on your topic, target audience, tone, and platforms. Generate t
 
 
 ## 🎥 Demo
-> Add a GIF or video here to showcase the app in action.  
-> Example: `assets/demo.mp4` or a YouTube link.
+![](assets/demo.gif)
 
 
 ## 📊 Example Output
