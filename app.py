@@ -19,9 +19,6 @@ Run the application locally::
     streamlit run app.py
 """
 
-"""AI Content Calendar Planner app (Streamlit)."""
-from __future__ import annotations
-
 import json
 from pathlib import Path
 import sys
@@ -38,7 +35,6 @@ from src.services.ai import generate_post_idea
 from src.services.export import to_csv_bytes, to_excel_bytes
 from src.services.logging import configure_logging, get_logger
 from src.ui.layout import sidebar_inputs
-from src.ui.theme import apply_theme
 
 
 # then non-import module code
@@ -56,7 +52,6 @@ st.markdown("Plan and generate **high-quality content ideas** using AI.")
 
 # Sidebar & theme
 inputs = sidebar_inputs()
-apply_theme(inputs["theme_mode"])
 
 # --- Helpers ---------------------------------------------------------------
 

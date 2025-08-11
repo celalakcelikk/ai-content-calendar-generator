@@ -32,7 +32,6 @@ def sidebar_inputs() -> dict:
         st.header("📅 Plan Settings")
 
         # Theme and general inputs
-        theme_mode = st.selectbox("Theme", ["System (Auto)", "Light", "Dark"], index=0)
         topic = st.text_input("Topic", placeholder="e.g., Personal Finance")
         audience = st.text_input("Audience", placeholder="e.g., Young Professionals")
 
@@ -59,7 +58,6 @@ def sidebar_inputs() -> dict:
         generate = st.button("🚀 Generate Plan")
 
         return {
-            "theme_mode": theme_mode,
             "topic": topic,
             "audience": audience,
             "frequency": frequency,
